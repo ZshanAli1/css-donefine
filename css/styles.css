@@ -1,0 +1,67 @@
+body{
+    text-align: center;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    color: #66BFA1;
+    margin: 50px auto 0 auto;
+    font-size: 4.6875rem;
+    font-family: 'Sacramento', cursive;
+}
+.para{
+    color: #66BFA1;
+    font-size: 2.5rem;
+    font-weight: normal;
+}
+h2{
+    color: #66BFA1;
+    font-family: 'Merriweather', serif;
+}
+h3{
+    color: #66BFA1;
+    font-family: 'Merriweather', serif;
+}
+h4{
+    color: #66BFA1;
+    font-family: 'Merriweather', serif;
+}
+.top{
+    background-color: #88FFF7;
+    position: relative;
+    padding: 100px;
+}
+.middle{
+    margin: 50px auto;
+}
+.bottom{
+
+}
+.t-cloud{
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.b-cloud{
+    position: absolute;
+    left: 300px;
+    bottom: 400px;
+}
+.skill-row{
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+.computer{
+    width: 25%;
+    margin-right: 50px;
+    float: left;
+}
+hr{
+    border: 5px #EAF6F6 dotted;
+    border-bottom: none;
+    width: 5%;
+}
+
