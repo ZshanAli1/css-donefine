@@ -1,109 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Assignment 1</title>
-    <style>
-        table,th,td{
-            border: 1px solid black;
-            border-collapse: collapse;
-        }
-    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 2</title>
+    <link rel="stylesheet" href="app.css">
 </head>
 <body>
-    <h1>Assignment 1</h1>
-<h2>Table Demo</h2>
-<table>
-    <thead>
-        <th>Animal</th>
-        <th>Average mass[kg(lb)]</th>
-        <th>Maximum mass[kg(lb)]</th>
-        <th>Flighted</th>
-    </thead>
-    <tbody>
-        <td>ostrich</td>
-        <td>104(230)</td>
-        <td>156.8(346)</td>
-        <td>No</td>
-    </tbody>
-    <tbody>
-        <td>Somali ostrich</td>
-        <td>90(200)</td>
-        <td>130(287)</td>
-        <td>No</td>
-    </tbody>
-    <tbody>
-        <td>Wild Turkey</td>
-        <td>13.5(29.8)</td>
-        <td>39(86)</td>
-        <td>Yes</td>
-    </tbody>     
-</table>
-<h2>Assignment wala Table</h2>
-<table>
-    <thead>
-        <tr>
-            <th rowspan="2">Animal</th>
-            <th colspan="2">Average mass</th> 
-            <th rowspan="2">Flighted</th> 
-        </tr>
-        <tr>
-            <th>kg</th>
-            <th>lb</th>
-        </tr>   
-    </thead> 
-    <tbody>
-        <td>ostrich</td>
-        <td>104</td>
-        <td>230</td>
-        <td>No</td>
-    </tbody>
-    <tbody>
-        <td>Somali ostrich</td>
-        <td>90</td>
-        <td>200</td>
-        <td>No</td>
-    </tbody>
-    <tbody>
-        <td>Wild Turkey</td>
-        <td>13.5</td>
-        <td>29.8</td>
-        <td>Yes</td>
-    </tbody>  
-</table>
-<h2>Race Registration</h2>
-<form action="/dummy">
-    <p>
-        <label for="FN">First Name:</label>
-        <input type="text" id="FN" placeholder="first name" name="firstname" required="required">
-        <label for="LN">Last Name:</label>
-        <input type="text" id="LN" placeholder="last name" name="lastname" required="required">
-    </p>
-    <h3>Select a Race:</h3>
-    <p>
-        <input id="fr5k" type="radio" name="Race" value="fun run 5k" required="required">
-        <label for="5k">Fun Run 5k</label> <br>
-        <input id="HM" type="radio" name="Race" value="half marathon" required="required">
-        <label for="HM">Half Marathon</label> <br>
-        <input id="FM" type="radio" name="Race" value="full marathon" required="required">
-        <label for="FM">Full Marathon</label>
-    </p>
-    <p>
-        <label for="mail">Enter email:</label>
-        <input type="email" id="mail" placeholder="enter email" name="email" required="required">
-        <label for="pass">Enter password:</label>
-        <input type="password" id="pass" placeholder="enter password" name="password" required="required">
-    </p>
-    <p>
-        <label for="age">Select age group:</label>
-        <select name="Age" id="age" >
-            <option value="">Select one option</option>
-            <option value="u18">under 18</option>
-            <option value="a18">above 18</option>
-            <option value="u30">under 30</option>
-            <option value="a30">above 30</option>
-        </select>
-    </p>
-    <input type="submit">    
-</form>
+    <h1>Please make me green</h1>
+    <h2>This is so ugly</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum dignissimos adipisci excepturi deleniti laborum nisi quaerat. At quidem fuga deserunt recusandae id optio rerum aut nobis nulla in nihil similique ipsam vitae natus molestias pariatur, totam facilis commodi est sequi quas voluptatem? Velit dolore ipsa facere voluptatem. Rerum similique quae, sapiente adipisci doloribus itaque repudiandae tempore. Nesciunt recusandae eum eligendi laboriosam eveniet, impedit quibusdam saepe minus molestias temporibus tenetur corrupti odio dolore nisi sapiente quasi maxime quos laborum accusamus cumque pariatur quo voluptate repudiandae? Eveniet similique, iste cum quae repellat, corporis possimus assumenda accusamus, optio illo recusandae. Explicabo, enim placeat!</p>
+    <button>Sign up</button>
+    <hr>
+    <hr>
+    <h1 id="first">Todos</h1>
+    <ul>
+        <li class="gray">Walk Chicken</li>
+        <li>Clean Out Coop</li>
+        <li class="gray">Collect Chicken Eggs</li>
+        <li>Incubate Chicken Eggs</li>
+        <li>Hatch New Chickens</li>
+    </ul>
+    <button id="bt">Clear List</button>
+    <input type="button" value="Add Todo">
+    <hr>
+    <hr>
+    <div class="card"> <img alt="" src="https://assets.codepen.io/123865/dog.png"> <h1 id="tp">Tommy is a Good Dog!</h1> </div>
+    
 </body>
 </html>

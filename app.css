@@ -1,0 +1,41 @@
+h1{
+    color: green;
+}
+h2{
+    color: magenta;
+}
+p{
+    color: white;
+    background-color: black;
+}
+button{
+    color: red;
+    background-color: pink;
+}
+#first{
+    color: black;
+}
+li{
+    color: blue;
+}
+.gray{
+    color: gray;
+}
+#bt{
+    color: white;
+    background-color: red;
+}
+.card{
+    width: 210px;
+    border: 1px gray solid;
+    border-radius: 5px;
+    text-align: center;
+}
+img{
+    width: 200px;
+    border-radius: 50%;
+    border: solid 5px rgb(236,183,191);
+}
+#tp{
+    color: black;
+}
