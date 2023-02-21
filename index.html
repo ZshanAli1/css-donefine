@@ -1,54 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Zeeshan Ali</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="icon" href="favicon.ico">
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&family=Roboto:wght@300&family=Sacramento&display=swap" rel="stylesheet"></head>
+    <title>Assignment 1</title>
+    <style>
+        table,th,td{
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
 <body>
-    <div class="top">
-        <img class="t-cloud" src="images/cloud.png" alt="cloud-img">
-        <h1>I'm Zeeshan</h1>
-        <p class="para">a programmer</p>
-        <img class="b-cloud" src="images/cloud.png" alt="cloud-img">
-        <img class="mountain" src="images/mountain.png" alt="mountain-img">
-    </div>
-    <div class="middle">
-        <div class="profile">
-          <img src="images/angela.png" alt="me">
-            <h2>Hello.</h2>
-            <p>Lorem ipsum dolor sit amet, vitae volutpat, dui conubia, dolor urna. Non auctor, montes nulla distinctio.</p>
-          </div>
-          <hr>
-          <div class="skills">
-            <h2>My Skills.</h2>
-            <div class="skill-row">
-              <img class="computer" src="images/computer.png" alt="computers image">
-              <h3 class="title">Lorem & Ipsum</h3>
-              <p class="left">Lorem ipsum dolor sit amet, quis in duis, iaculis id felis. Consectetuer vestibulum, nunc urna lectus, erat ligula. Hendrerit nam, lectus ante, ut lorem eros.</p>
-            </div>
-            <div class="skill-row">
-              <img class="computer" src="images/chillies.png" alt="">
-              <h3 class="title">Lorem Ipsum Dolor</h3>
-              <p class="left">Lorem ipsum dolor sit amet, mauris sed consectetuer. Etiam et eu, bibendum interdum, lacus quis mauris. Curabitur wisi, quisque vel eu, rutrum nam.</p>
-            </div>
-          </div>
-          <hr>
-          <div class="contact-me">
-            <h2>Get In Touch</h2>
-            <h3>Lorem ipsum dolor sit amet, non elit.</h3>
-            <p>Lorem ipsum dolor sit amet, in quis, aenean amet. Phasellus sodales, tellus donec dui, ornare erat.</p>
-            <a class="btn" href="mailto:zshan4487@gmail.com">CONTACT ME</a>
-          </div>
-    </div>
-    <div class="bottom">
-        <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
-        <a class="footer-link" href="https://twitter.com/">Twitter</a>
-        <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
-        <p>© 2018 Name Surname.</p>
-    </div>
+    <h1>Assignment 1</h1>
+<h2>Table Demo</h2>
+<table>
+    <thead>
+        <th>Animal</th>
+        <th>Average mass[kg(lb)]</th>
+        <th>Maximum mass[kg(lb)]</th>
+        <th>Flighted</th>
+    </thead>
+    <tbody>
+        <td>ostrich</td>
+        <td>104(230)</td>
+        <td>156.8(346)</td>
+        <td>No</td>
+    </tbody>
+    <tbody>
+        <td>Somali ostrich</td>
+        <td>90(200)</td>
+        <td>130(287)</td>
+        <td>No</td>
+    </tbody>
+    <tbody>
+        <td>Wild Turkey</td>
+        <td>13.5(29.8)</td>
+        <td>39(86)</td>
+        <td>Yes</td>
+    </tbody>     
+</table>
+<h2>Assignment wala Table</h2>
+<table>
+    <thead>
+        <tr>
+            <th rowspan="2">Animal</th>
+            <th colspan="2">Average mass</th> 
+            <th rowspan="2">Flighted</th> 
+        </tr>
+        <tr>
+            <th>kg</th>
+            <th>lb</th>
+        </tr>   
+    </thead> 
+    <tbody>
+        <td>ostrich</td>
+        <td>104</td>
+        <td>230</td>
+        <td>No</td>
+    </tbody>
+    <tbody>
+        <td>Somali ostrich</td>
+        <td>90</td>
+        <td>200</td>
+        <td>No</td>
+    </tbody>
+    <tbody>
+        <td>Wild Turkey</td>
+        <td>13.5</td>
+        <td>29.8</td>
+        <td>Yes</td>
+    </tbody>  
+</table>
+<h2>Race Registration</h2>
+<form action="/dummy">
+    <p>
+        <label for="FN">First Name:</label>
+        <input type="text" id="FN" placeholder="first name" name="firstname" required="required">
+        <label for="LN">Last Name:</label>
+        <input type="text" id="LN" placeholder="last name" name="lastname" required="required">
+    </p>
+    <h3>Select a Race:</h3>
+    <p>
+        <input id="fr5k" type="radio" name="Race" value="fun run 5k" required="required">
+        <label for="5k">Fun Run 5k</label> <br>
+        <input id="HM" type="radio" name="Race" value="half marathon" required="required">
+        <label for="HM">Half Marathon</label> <br>
+        <input id="FM" type="radio" name="Race" value="full marathon" required="required">
+        <label for="FM">Full Marathon</label>
+    </p>
+    <p>
+        <label for="mail">Enter email:</label>
+        <input type="email" id="mail" placeholder="enter email" name="email" required="required">
+        <label for="pass">Enter password:</label>
+        <input type="password" id="pass" placeholder="enter password" name="password" required="required">
+    </p>
+    <p>
+        <label for="age">Select age group:</label>
+        <select name="Age" id="age" >
+            <option value="">Select one option</option>
+            <option value="u18">under 18</option>
+            <option value="a18">above 18</option>
+            <option value="u30">under 30</option>
+            <option value="a30">above 30</option>
+        </select>
+    </p>
+    <input type="submit">    
+</form>
 </body>
 </html>

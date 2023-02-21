@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>Basic Form</h1>
+    <form action="/dummy">
+        <p>
+            <label for="username">User Name:</label>
+            <input type="text" id="username" placeholder="username" name="username">
+        </p>
+        <p>
+            <label for="password">Password:</label>
+            <input type="password" id="password" placeholder="password" name="password">
+        </p>
+        <p>
+            <label for="color">your favourite colour</label>
+            <input type="color" id="color" name="colour" >
+        </p>
+        <p>
+            <label for="number">Enter your number:</label>
+            <input type="number" id="number" placeholder="enter number" name="number">
+        </p>
+        <input type="submit">
+    </form>
+    <h2>Hijact Searches</h2>
+    <p>
+        <form action="https://www.youtube.com/results">
+        
+            <input type="text" name="q" placeholder="enter to search on youtube">
+            <input type="submit" value="search on youtube">
+        </form>
+    </p>
+    <form action="https://www.google.com/search">
+        <input type="text" name="q" placeholder="enter to search on google">
+        <input type="submit" value="search on google">
+    </form>
+    <h2>
+        University Admission 
+    </h2>
+    <form action="/dummy">
+        <p>
+            <input type="checkbox" id="Agree" name="apporval" value="yes">
+            <label for="Agree"> i agree all terms and conditions</label>
+        </p>
+        <p>
+            <input id="lahore" type="radio" name="city" value="lahore">
+            <label for="lahore">Lahore</label> <br>
+            <input id="karachi" type="radio" name="city" value="karachi">
+            <label for="karachi">Karachi</label> <br>
+            <input id="islamabad" type="radio" name="city" value="islamabad">
+            <label for="islamabad">Islamabad</label>
+        </p>
+        <p>
+            <label for="Degree">Select Degree Program of your choice</label>
+            <select name="degree" id="Degree">
+                <option value="">Select one option</option>
+                <option value="Bachelors in computer science">BSCS</option>
+                <option value="Masters in computer science">MSCS</option>
+                <option value="Bachelors in software engineering">BSSE</option>
+                <option value="Masters in software engineering">MSSE</option>
+            </select>
+        </p>
+        <button>send</button>
+        
+    </form>
+</body>
+</html>
